@@ -5,7 +5,7 @@ import Cupcake from './Cupcake';
 const CupCakes = () => {
     const [cupCakedetails, setCupCakeDetails] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/cupcake')
+        fetch('https://immense-cove-10373.herokuapp.com/cupcake')
             .then(res => res.json())
             .then(data => setCupCakeDetails(data))
     }, [])

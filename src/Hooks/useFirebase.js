@@ -20,7 +20,7 @@ const useFirebase = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://immense-cove-10373.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
@@ -100,7 +100,7 @@ const useFirebase = () => {
 
     console.log(user);
     useEffect(() => {
-        fetch(`http://localhost:5000//users/${user?.email}`)
+        fetch(`https://immense-cove-10373.herokuapp.com//users/${user?.email}`)
             .then(res => res.json())
             .then(data => setAdmin(data.admin))
 
@@ -118,7 +118,7 @@ const useFirebase = () => {
     // https://sleepy-reaches-16284.herokuapp.com/users
     const saveUser = (email, displayName, method) => {
         const user = { email, displayName };
-        fetch('http://localhost:5000//users', {
+        fetch('https://immense-cove-10373.herokuapp.com//users', {
             method: method,
             headers: {
                 'content-type': 'application/json'

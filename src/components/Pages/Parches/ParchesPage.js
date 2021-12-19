@@ -15,7 +15,7 @@ const ParchesPage = () => {
 
     useEffect(() => {
         console.log('grtting');
-        fetch(`http://localhost:5000/products/${id}`)
+        fetch(`https://immense-cove-10373.herokuapp.com/products/${id}`)
             .then(res => res.json())
             .then(data => setItem(data))
     }, [id])
@@ -50,7 +50,7 @@ const ParchesPage = () => {
         }
 
         // send to the server
-        fetch('http://localhost:5000/purchase', {
+        fetch('https://immense-cove-10373.herokuapp.com/purchase', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

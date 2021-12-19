@@ -6,7 +6,7 @@ import DonutDetail from './DonutDetail';
 const DonutDetails = () => {
     const [donutdetails, setDonutDetails] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/donut')
+        fetch('https://immense-cove-10373.herokuapp.com/donut')
             .then(res => res.json())
             .then(data => setDonutDetails(data))
     })

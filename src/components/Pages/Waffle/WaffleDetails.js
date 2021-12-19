@@ -6,7 +6,7 @@ import WaffleDetail from './WaffleDetail';
 const WaffleDetails = () => {
     const [waffledetails, setWaffleDetails] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/waffle')
+        fetch('https://immense-cove-10373.herokuapp.com/waffle')
             .then(res => res.json())
             .then(data => setWaffleDetails(data))
     })

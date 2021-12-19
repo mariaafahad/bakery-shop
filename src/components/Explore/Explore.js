@@ -4,7 +4,7 @@ import Explorer from './Explorer';
 const Explore = () => {
     const [allProducts, setAllProducts] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://immense-cove-10373.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setAllProducts(data))
     }, [])

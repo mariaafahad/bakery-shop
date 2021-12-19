@@ -4,7 +4,7 @@ import CakeDetail from './CakeDetail';
 const CakeDeatails = () => {
     const [details, setDetails] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/cake')
+        fetch('https://immense-cove-10373.herokuapp.com/cake')
             .then(res => res.json())
             .then(data => setDetails(data))
     })

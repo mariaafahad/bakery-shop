@@ -4,7 +4,7 @@ import MuffinDetail from './MuffinDetail';
 const MuffinDetails = () => {
     const [muffindetails, setMuffinDetails] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/muffin')
+        fetch('https://immense-cove-10373.herokuapp.com/muffin')
             .then(res => res.json())
             .then(data => setMuffinDetails(data))
     })

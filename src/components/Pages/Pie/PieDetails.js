@@ -4,7 +4,7 @@ import PieDetail from './PieDetail';
 const PieDetails = () => {
     const [piedetails, setPieDetails] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/pie')
+        fetch('https://immense-cove-10373.herokuapp.com/pie')
             .then(res => res.json())
             .then(data => setPieDetails(data))
     })
