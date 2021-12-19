@@ -1,0 +1,44 @@
+[
+    {
+        "id": "cake",
+        "img": "https://i.ibb.co/wLMS4Cs/ckltcake1.jpg",
+        "name": "Cake",
+        "description": "Delicias Cake",
+        "price": "900"
+    },
+    {
+        "id": "donut",
+        "img": "https://i.ibb.co/bWPTh4q/colorful-tasty-donuts-144627-18315.jpg",
+        "name": "Donut",
+        "description": "Delicias Cake",
+        "price": "900"
+    },
+    {
+        "id": "muffin",
+        "img": "https://i.ibb.co/HHC8n6W/delicious-muffin-144627-27415.jpg",
+        "name": "Muffin",
+        "description": "Delicias Cake",
+        "price": "900"
+    },
+    {
+        "id": "pie",
+        "img": "https://i.ibb.co/gdVLJwD/piebanner.jpg",
+        "name": "Pie",
+        "description": "Delicias Cake",
+        "price": "900"
+    },
+    {
+        "id": "waffle",
+        "img": "https://i.ibb.co/kmHv1FY/waffle-95678-13.jpg",
+        "name": "Waffle",
+        "description": "Delicias Cake",
+        "price": "900"
+    },
+    {
+        "id": "cupcake",
+        "img": "https://i.ibb.co/mbbs0Wy/cupcakes-1203-3130.jpg",
+        "name": "Cupcake",
+        "description": "Delicias Cake",
+        "price": "900"
+    }
+]
