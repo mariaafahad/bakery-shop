@@ -96,7 +96,7 @@ const useFirebase = () => {
             setIsLoading(false);
         });
         return () => unsubscribe;
-    }, [])
+    }, [auth])
 
     console.log(user);
     useEffect(() => {

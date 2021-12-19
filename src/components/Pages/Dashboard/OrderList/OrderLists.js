@@ -12,7 +12,7 @@ const OrderLists = () => {
             .then(res => res.json())
 
             .then(data => setLists(data));
-    }, [])
+    }, [user.email])
 
     let total = 0;
     for (let i = 0; i < lists.length; i++) {

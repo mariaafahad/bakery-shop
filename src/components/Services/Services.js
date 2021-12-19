@@ -1,5 +1,5 @@
 
-import Aos from 'aos';
+
 import React, { useEffect, useState } from 'react';
 import Service from '../Service/Service';
 

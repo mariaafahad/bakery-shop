@@ -8,7 +8,7 @@ const ParchesPage = () => {
     const { products, user } = useAuth();
     const { id } = useParams()
     console.log('hhghgh', id);
-    const { name, price, _id } = products;
+
     const history = useHistory();
 
     const [item, setItem] = useState([])

@@ -9,7 +9,7 @@ const Service = ({ service }) => {
             duration: 7000
         });
     }, []);
-    const { id, name, img, description, price } = service;
+    const { name, img, description, price } = service;
     return (
 
 
