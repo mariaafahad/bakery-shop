@@ -21,6 +21,7 @@ import Explore from './components/Explore/Explore';
 import AboutMe from './components/Pages/AboutMe/AboutMe';
 import Design from './components/Pages/Design/Design';
 import Payment from './components/Pages/Payment/Payment';
+import AddProduct from './components/Pages/AddProduct/AddProduct';
 
 
 
@@ -73,6 +74,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/design">
               <Design></Design>
+            </PrivateRoute>
+            <PrivateRoute path="/addproduct">
+              <AddProduct></AddProduct>
             </PrivateRoute>
             <PrivateRoute path="/payment">
               <Payment></Payment>

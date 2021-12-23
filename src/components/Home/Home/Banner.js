@@ -18,7 +18,7 @@ const Banner = () => {
                             </div>
 
                             <div class="flex flex-col items-start my-4 text-left lg:pl-10">
-                                <p class="max-w-md mb-10 text-base font-light text-gray-200 sm:text-lg lg:text-xl dark:text-dark-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laborum deleniti eius aliquam tenetur quisquam maiores tempora odit, distinctio ex porro dolore atque nulla a dolorum similique ratione voluptas consequatur.</p>
+                                <p class="max-w-md mb-10 text-base font-light text-gray-200 sm:text-lg lg:text-xl dark:text-dark-200">Thank you for your kindness and patience as our team continues to work hard to serve our guests and communities. In speaking with our guests these past few months, I’ve come to realize that we’re not just feeding the community, but we’re providing a sense of comfort and normalcy to their homes during these uncertain times.</p>
 
                                 <div class="relative flex flex-col items-center justify-start w-full space-y-5 sm:w-auto lg:space-y-0 lg:space-x-5 lg:flex-row">
                                     <Link to='/explore' class="flex items-center animate-bounce justify-center w-full px-8 py-3 text-base font-medium leading-6  text-blue-600 transition duration-150 ease-in-out border border-transparent rounded-lg sm:w-auto sm:rounded-full bg-blue-50 xl:px-10 hover:bg-white focus:outline-none focus:border-blue-700 focus:shadow-outline-blue md:py-4 xl:text-xl hover:shadow-black" data-unsp-sanitized="clean">

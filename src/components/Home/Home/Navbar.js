@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <div >
-            <nav className="bg-yellow-200 mt-0 fixed w-full z-20 top-0">
+            <nav className="bg-yellow-200 mt-0 fixed w-full z-20 top-0 mb-96">
 
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -34,6 +34,7 @@ const Navbar = () => {
                                         user?.email ?
                                             <div>
                                                 <div className="flex flexwrap items-center justify-around">
+                                                    <Link to="/addproduct" className=" hover:bg-white text-gray-700 px-3 py-2 rounded-md  font-bold">Add Product</Link>
                                                     <Link to="/services" className=" hover:bg-white text-gray-700 px-3 py-2 rounded-md  font-bold">Other Services</Link>
                                                     <Link to="/explore" className=" hover:bg-white text-gray-700 px-3 py-2 rounded-md  font-bold">Explore</Link>
                                                     <NavLink to="/dashboard">
@@ -117,8 +118,10 @@ const Navbar = () => {
                     {(ref) => (
                         <div className="md:hidden" id="mobile-menu">
                             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                                <a href="/" className=" hover:bg-white text-white px-3 py-2 rounded-md text-sm font-bold">Home</a>
-
+                                <a href="/" className=" hover:bg-white text-red-500 px-3 py-2 rounded-md text-sm font-bold">Home</a>
+                                <Link to='/addproduct' className=" hover:bg-white text-red-500 px-3 py-2 rounded-md text-sm font-bold">Add Product</Link>
+                                <Link to='/explore' className=" hover:bg-white text-red-500 px-3 py-2 rounded-md text-sm font-bold">Explore</Link>
+                                <Link to='/login' className=" hover:bg-white text-red-500 px-3 py-2 rounded-md text-sm font-bold">Login</Link>
 
                             </div>
                         </div>
