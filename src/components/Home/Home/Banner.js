@@ -1,9 +1,16 @@
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-import React from 'react';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import './Banner.css'
 
 const Banner = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 3000
+        });
+    }, []);
 
     return (
         <>
@@ -14,10 +21,12 @@ const Banner = () => {
                         <div class="flex flex-col items-start justify-center w-full h-full pb-20">
                             <div class="relative w-full lg:pl-10">
 
-                                <h1 class="relative z-0 w-full animate-pulse max-w-md py-2 text-4xl font-black text-left  sm:py-5 sm:text-6xl" data-unsp-sanitized="clean">My Bakery</h1>
+                                <h1 class="relative z-0 w-full  max-w-md py-2 text-4xl text-left  sm:py-5 sm:text-6xl animate__zoomIn font-bold uppercase tracking-widest text-orange-800" data-aos="fade-up " >My Bakery</h1>
                             </div>
 
-                            <div class="flex flex-col items-start my-4 text-left lg:pl-10">
+                            <div class="flex flex-col items-start my-4 text-left lg:pl-10" data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine">
                                 <p class="max-w-md mb-10 text-base font-light text-gray-200 sm:text-lg lg:text-xl dark:text-dark-200">Thank you for your kindness and patience as our team continues to work hard to serve our guests and communities. In speaking with our guests these past few months, I’ve come to realize that we’re not just feeding the community, but we’re providing a sense of comfort and normalcy to their homes during these uncertain times.</p>
 
                                 <div class="relative flex flex-col items-center justify-start w-full space-y-5 sm:w-auto lg:space-y-0 lg:space-x-5 lg:flex-row">

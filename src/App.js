@@ -22,6 +22,7 @@ import AboutMe from './components/Pages/AboutMe/AboutMe';
 import Design from './components/Pages/Design/Design';
 import Payment from './components/Pages/Payment/Payment';
 import AddProduct from './components/Pages/AddProduct/AddProduct';
+import FAQ from './components/Pages/FAQ/FAQ';
 
 
 
@@ -41,6 +42,9 @@ function App() {
             </Route>
             <Route path="/about">
               <AboutMe></AboutMe>
+            </Route>
+            <Route path="/faq">
+              <FAQ></FAQ>
             </Route>
             <PrivateRoute path="/details/purchase/:id">
               <ParchesPage></ParchesPage>

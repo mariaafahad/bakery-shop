@@ -36,6 +36,7 @@ const Navbar = () => {
                                                 <div className="flex flexwrap items-center justify-around">
                                                     <Link to="/addproduct" className=" hover:bg-white text-gray-700 px-3 py-2 rounded-md  font-bold">Add Product</Link>
                                                     <Link to="/services" className=" hover:bg-white text-gray-700 px-3 py-2 rounded-md  font-bold">Other Services</Link>
+                                                    <Link to="/faq" className=" hover:bg-white text-gray-700 px-3 py-2 rounded-md  font-bold">FAQ</Link>
                                                     <Link to="/explore" className=" hover:bg-white text-gray-700 px-3 py-2 rounded-md  font-bold">Explore</Link>
                                                     <NavLink to="/dashboard">
                                                         <button className="hover:bg-white text-gray-700 px-3 py-2 rounded-md  font-bold">Dashboard</button>
